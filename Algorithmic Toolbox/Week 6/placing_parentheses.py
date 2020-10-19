@@ -8,7 +8,6 @@ def evalt(a, b, op):
     else:
         assert False
 
-
 def get_maximum_value(dataset):
 	d = dataset[::2]
 	op = dataset[1::2]
@@ -32,7 +31,6 @@ def get_maximum_value(dataset):
 			m[i][j] = mini
 			M[i][j]	= maxi
 	return M[1][n]
-
 
 if __name__ == "__main__":
     print(int(get_maximum_value(input())))
