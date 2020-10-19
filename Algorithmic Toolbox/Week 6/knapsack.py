@@ -11,8 +11,6 @@ def optimal_weight(W, w):
                     value[j][i] = val
     return value[W][len(w)]             
 
-
-
 if __name__ == '__main__':
     input = sys.stdin.read()
     W, n, *w = list(map(int, input.split()))
